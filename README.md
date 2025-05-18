@@ -72,3 +72,37 @@ graph TD
 | **PDF Parsing (WIP)**| LangChain PDF Loader            |
 | **Charting**        | Matplotlib, yFinance (coming soon) |
 
+## 🚀 Getting Started Locally
+
+1. **Clone This Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/ValuateGPT.git
+   cd ValuateGPT
+
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Add Your API Key**
+Create a .env file and add your OpenAI API key:
+   ```bash
+   OPENAI_API_KEY=your_openai_key
+Or enter your key on the app’s homepage.
+
+4. **Launch the App**
+    ```bash
+    streamlit run app.py
+
+## 🙌 Built With
+
+- OpenAI  
+- LangChain  
+- Streamlit  
+- yFinance  
+- BeautifulSoup  
+
+
+## 👨‍💻 Created by
+Vatsal Mishra — Founder of Engaj Media  
+📬 Connect on [[LinkedIn](https://www.linkedin.com/in/vatsalmishra-/)]
