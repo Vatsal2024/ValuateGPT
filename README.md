@@ -85,10 +85,12 @@ graph TD
    pip install -r requirements.txt
 
 3. **Add Your API Key**
-- Create a .env file and add your OpenAI API key:
+
+Create a .env file and add your OpenAI API key:
    ```bash
    OPENAI_API_KEY=your_openai_key
-- Or enter your key on the app’s homepage.
+
+Or enter your key on the app’s homepage.
 
 4. **Launch the App**
     ```bash
