@@ -56,5 +56,5 @@
         E --> F[OpenAI GPT Reasoning Engine]
         F --> G[Final AI-Generated Investment Report]
         G --> H[Displayed via Streamlit UI]
-
+    ```
 </details>
