@@ -43,8 +43,8 @@
 graph TD
     A[User Input: Company Name] --> B[LangChain + Prompt Chains]
     B --> C[Data Fetching]
-    C --> D1[Financial Data yFinance]
-    C --> D2[Peer Info (LLM + Web)]
+    C --> D1[Financial Data]
+    C --> D2[Peer Info {LLM + Web}]
     C --> D3[Macroeconomic Data (APIs)]
     C --> D4[News Scraping + Sentiment]
     C --> D5[Chart + Technical Trends]
