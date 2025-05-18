@@ -38,7 +38,6 @@
 
 ## How It Works (Architecture)
 
-```mermaid
 graph TD
     A[User Input: Company Name] --> B[LangChain + Prompt Chains]
     B --> C[Data Fetching]
