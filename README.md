@@ -58,3 +58,106 @@ graph TD
     G --> H[Displayed via Streamlit UI]
 ```
 </details>
+
+# ValuateGPT
+
+## 🧱 Tech Stack
+
+| Layer          | Tech Used                         |
+|----------------|----------------------------------|
+| **UI**         | Streamlit                        |
+| **AI Reasoning** | OpenAI GPT-4 via LangChain      |
+| **Data Layer** | yFinance, News APIs, Macro APIs  |
+| **Vector Storage** | FAISS                          |
+| **PDF Parsing (WIP)** | LangChain PDF Loader           |
+| **Charting**   | Matplotlib, yFinance (coming soon) |
+
+---
+
+## 🚀 Getting Started Locally
+
+1. **Clone This Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/ValuateGPT.git
+   cd ValuateGPT
+Install Dependencies
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Add Your API Key
+
+Create a .env file and add your OpenAI API key:
+
+env
+Copy
+Edit
+OPENAI_API_KEY=your_openai_key
+Or enter your key directly on the app’s homepage.
+
+Launch the App
+
+bash
+Copy
+Edit
+streamlit run app.py
+🗂️ Project Structure
+bash
+Copy
+Edit
+.
+├── app.py                   # Main Streamlit app
+├── peeranalysis.py          # Peer company analysis module
+├── macroanalysis.py         # Macroeconomic module
+├── newsanalyst.py           # News summarizer and sentiment analyzer
+├── technicalanalyst.py      # (Coming soon) Technical chart insights
+├── utils.py                 # Common helper functions
+├── requirements.txt         # Python dependencies
+└── README.md                # This file
+📍 Roadmap
+Company-to-report AI workflow
+
+Automated peer comparison
+
+Macroeconomic summarizer
+
+News relevance extractor
+
+Technical charting module
+
+Finetuned financial GPT model
+
+Portfolio upload & batch analysis
+
+🤝 Contribute
+Contributions and collaborations are welcome! Areas you can help with:
+
+Chart visualizations
+
+Finetuning prompts for better financial summarization
+
+UI upgrades
+
+Adding new analysis categories (e.g., ESG, valuation)
+
+How to contribute: Fork → Code → Pull Request 🚀
+
+📄 License
+Distributed under the MIT License. See LICENSE for details.
+
+🙌 Built With
+OpenAI
+
+LangChain
+
+Streamlit
+
+yFinance
+
+BeautifulSoup
+
+👨‍💻 Created by
+[Your Name] — MBA Intern @ JPMorgan, Founder of ValuateGPT
+📬 Connect on LinkedIn
