@@ -38,6 +38,7 @@
 
 ## How It Works (Architecture)
 <details> <summary>📊 <strong>System Architecture</strong> (Click to Expand)</summary>
+```mermaid
 graph TD
     A[User Input: Company Name] --> B[LangChain + Prompt Chains]
     B --> C[Data Fetching]
@@ -54,4 +55,5 @@ graph TD
     E --> F[OpenAI GPT Reasoning Engine]
     F --> G[Final AI-Generated Investment Report]
     G --> H[Displayed via Streamlit UI]
+
 </details>
