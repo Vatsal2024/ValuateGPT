@@ -4,7 +4,7 @@
 
 ---
 
-## ✨ What Makes ValuateGPT Unique?
+## What Makes ValuateGPT Unique?
 
 💡 Just enter the company name or stock ticker (e.g., `TCS`, `AAPL`, `RELIANCE`), and it automatically performs:
 
@@ -36,7 +36,7 @@
 
 ---
 
-## ⚙️ How It Works (Architecture)
+## How It Works (Architecture)
 
 ```mermaid
 graph TD
